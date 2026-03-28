@@ -1,0 +1,9 @@
+desktop.ini
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
+backend/exports/*.csv
+tsconfig.tsbuildinfo
+tsconfig.node.tsbuildinfo
