@@ -34,7 +34,7 @@ data:
   JWT_ACCESS_EXPIRES_IN: "15m"
   JWT_REFRESH_EXPIRES_IN: "7d"
   EXPORTS_DIR: "./exports"
-  FRONTEND_URL: "http://192.168.49.2:30003"
+  FRONTEND_URL: "http://minikube-ip:30003"
 
 ---
 # ============================================================
@@ -357,7 +357,7 @@ spec:
           env:
             # Runtime hint only — VITE vars must be injected at build time
             - name: VITE_API_URL
-              value: "http://192.168.49.2:30001/api"
+              value: "http://minikube-ip:30001/api"
 
 ---
 # ============================================================
